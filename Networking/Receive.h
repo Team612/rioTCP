@@ -43,7 +43,7 @@ public:
             return "";
         }
         recv(clientfd, buffer, size, MSG_WAITALL);
-        return *(new std::string(buffer));
+        return std::string(buffer);
     }
 
     inline auto get_info() {
