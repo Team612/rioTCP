@@ -1,1 +1,1 @@
-g++ -std=c++1y src/Robot.cpp -INetworking -o $1
+g++ -std=c++1y src/Robot.cpp -lpthread -INetworking -o $1

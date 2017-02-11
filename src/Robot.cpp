@@ -1,10 +1,9 @@
 #include "Send.h"
 #include "Receive.h"
 
-#include <thread>
-#include <chrono>
+#include <memory>
 
-#define send
+//#define send
 
 int main() {
     std::cout << "Lol totally a robot!" << std::endl;
